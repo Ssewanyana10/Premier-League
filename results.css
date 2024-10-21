@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+
+p {
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+h1, a {
+    font-family: 'Premier League', sans-serif;
+    color: #F2055C;
+}
+
+
+h2 {
+    margin-left: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+nav {
+    margin-bottom: 100px;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #340040;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+   
+}
+
+li {
+    list-style: none;
+    
+}
+
+ a {
+    text-decoration: none;
+    color: white;
+ }
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 50px;
+    
+}
+
+ .fixtures {
+    padding: 2rem;
+    border: 1px solid black;
+ }
+
+ .time {
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #340040;
+    color: white;
+ }
+
+
+
+
+
+
+ footer {
+    background-color: #340040;
+    height: 250px;
+    width: 100%;
+    padding: 1rem;
+    
+ }
+
+
+ footer a {
+    color: #F2055C;
+ }
+
+ footer p {
+    color: white;
+    font-size: 1.1rem;
+ }
